@@ -11,7 +11,7 @@ window.onload = function() {
 	};
     
 	//start Crafty
-	Crafty.init(800, 600);
+	Crafty.init(220, 400);
 	Crafty.canvas.init();
 	
 	require([
@@ -31,7 +31,7 @@ window.onload = function() {
             sc = []; infc = [];   
 
 			var loadingText = Crafty.e("2D, "+gameContainer.conf.get('renderType')+", Text")
-					.attr({w: 500, h: 20, x: ((Crafty.viewport.width) / 2), y: (Crafty.viewport.height / 2), z: 2})
+					.attr({w: 220, h: 400, x: ((Crafty.viewport.width) / 2), y: (Crafty.viewport.height / 2), z: 2})
 					.text('Loading...')
 					.textColor('#000')
 					.textFont({'size' : '24px', 'family': 'Arial'});
