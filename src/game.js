@@ -11,8 +11,7 @@ window.onload = function() {
 	};
     
 	//start Crafty
-	Crafty.init(220, 400);
-	Crafty.canvas.init();
+	Crafty.init(220, 400);		
 	
 	require([
 	         "src/sprites.js?v="+version+"",

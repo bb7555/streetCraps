@@ -1,21 +1,24 @@
 Info = BaseEntity.extend({
 	defaults: {
-        'text' : "<span style='text-shadow:2px 2px #000;cursor:pointer;'>Street Craps <br />Begin Game</span>",
+        'text_begin' : "<span id='info_begin' style='text-shadow:2px 2px #000;cursor:pointer; '>Street Craps</span>",
     },
     initialize: function(){
     	var model = this;
-    	var entity = Crafty.e("2D, DOM, Text");
+			
+				
+    	var entity = Crafty.e("2D, HTML, DOM, Text, Mouse, street")
 
     	entity
-            .attr({x: 20, y: 50, z: 1000, w: 400})
-            .text(model.get('text'))
+            .attr({x: 20, y: 50, z: 1, w: 200})
+            .text(model.get('text_begin'))
             .textColor('#FF0000')
             .textFont({'size' : '30px', 'family': 'Arial', 'weight': 'bold'})
-            .bind('click', function(){
-				alert('click');
-                               
-            })
-
+            .setName('Begin Info')
+			.bind("Click", function(){console.log('hi tere')})
+			
+		
+		
+			
     	model.set({'entity' : entity });
     }
 });
