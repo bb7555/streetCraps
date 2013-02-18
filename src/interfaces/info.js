@@ -6,7 +6,7 @@ Info = BaseEntity.extend({
     	var model = this;
 			
 				
-    	var entity = Crafty.e("2D, HTML, DOM, Text, Mouse, street")
+    	var entity = Crafty.e("2D, HTML, DOM, Text, Mouse")
 
     	entity
             .attr({x: 20, y: 50, z: 1, w: 200})

@@ -13,12 +13,21 @@
 Sprites = Backbone.Model.extend({
     defaults: {
         images:{
-            'street' : {
-                 'file' : 'web/images/ufo.png',
+            'start_btn' : {
+                 'file' : 'web/images/clear.png',
                  'tile' : 211,
                  'tileh' : 117,
                  'elements': {
-                     'street' : [0, 0]
+                     'start_btn' : [0, 0]
+                 }
+			},
+				 
+				'hand' : {
+                 'file' : 'web/images/hand.png',
+                 'tile' : 150,
+                 'tileh' : 153,
+                 'elements': {
+                     'hand' : [0, 0]
                  }
             }
         }
