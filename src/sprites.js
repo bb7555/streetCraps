@@ -29,7 +29,32 @@ Sprites = Backbone.Model.extend({
                  'elements': {
                      'hand' : [0, 0]
                  }
-            }
+            },
+
+                'start_btn':{
+                    'file' : 'web/images/start_btn.png',
+                    'tile' : 200,
+                    'tileh' : 60,
+                    'elements' : {
+                        'start_btn' : [0,0]
+                    }
+            },
+                'h2p_btn':{
+                    'file' : 'web/images/h2p_btn.png',
+                    'tile' : 200,
+                    'tileh' : 60,
+                    'elements' : {
+                        'h2p_btn' : [0,0]
+                    }
+            },
+                'mm_btn':{
+                    'file' : 'web/images/mm_btn.png',
+                    'tile' : 200,
+                    'tileh' : 60,
+                    'elements' : {
+                        'mm_btn' : [0,0]
+                    }
+            } 
         }
     },
     initialize: function(){
