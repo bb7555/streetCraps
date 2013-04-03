@@ -9,7 +9,7 @@ H2PInfo = BaseEntity.extend({
     	var entity = Crafty.e("2D, HTML, DOM, Text, Mouse")
 
     	entity
-            .attr({x: 10, y: 20, z: 1, w: 200})
+            .attr({x: 10, y: 20, z: 1, w: 300})
             .text(model.get('text_info'))
             .textColor('#000')
             .textFont({'size' : '12px', 'family': 'Arial', 'weight': 'bold'})
