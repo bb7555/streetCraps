@@ -13,7 +13,7 @@ StartGame = BaseEntity.extend({
             .setName('StartGame')
 			.bind('Click', function(){
 			
-				Crafty.scene("infoPane");
+				Crafty.scene("gamble");
 			
 			});
 

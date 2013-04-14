@@ -3,7 +3,11 @@ Config = Backbone.Model.extend({
         'renderType' : 'DOM'
     },
     initialize: function() {
+
+
        
     },
+
+    
     
 });

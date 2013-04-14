@@ -54,7 +54,15 @@ Sprites = Backbone.Model.extend({
                     'elements' : {
                         'mm_btn' : [0,0]
                     }
-            } 
+            },
+                'slickBack':{
+                    'file' : 'web/images/slickback.png',
+                    'tile' : 253,
+                    'tileh' : 199,
+                    'elements' : {
+                        'slickBack' : [0,0]
+                    }
+            }
         }
     },
     initialize: function(){
